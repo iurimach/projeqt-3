@@ -1,0 +1,200 @@
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(46, 154, 255);
+    display: flex;
+    /*ქქვედაკოდიტექსცენტრშიაყენებს*/justify-content: center;
+    align-items: center;
+    transition:0.5s ;
+    -webkit-transition:0.5s ;
+    -moz-transition:0.5s ;
+    -ms-transition:0.5s ;
+    -o-transition:0.5s ;
+    cursor: pointer;
+    font-size: 30px;
+    
+    
+}
+nav:hover{
+    color: red  ;}
+
+
+.mshobeli1{
+    display: flex;
+    justify-content: center;
+    
+    padding: 100px;
+    
+}
+.meniu{
+    display: flex;
+    justify-content: center;
+    text-shadow:10px 10px 10px rgb(12, 44, 80) ;
+    
+
+    
+
+}
+
+.meniusfoto1{
+    width: 200px;
+    height: 200px;
+    border: 3px;
+    z-index: 2;
+    filter: brightness(130%);
+    display: flex;
+    border: 2px solid green;
+    position: relative;
+    box-shadow: 10px 10px 30px rgb(43, 3, 6);
+    -webkit-filter: brightness(130%);
+}
+
+.meniusfoto1:hover {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    z-index: 1;
+}
+
+    .pizzaicon{
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        /*ანიმცისსახელიშევმქნირომელიცმივაბიქვემოთკოდს*/animation-name: test-anim;
+        /*გადაადგილებისსიჩქარე*/animation-duration: 6s;
+        /*infinitiციკლილუპა,სულმოძრაბსგაუჩერებლად*/animation-iteration-count: infinite;
+        font-style: italic;
+        display: flex;
+        
+        justify-content: center;
+       
+       border: 3px;
+       ;
+       text-align: center;}
+
+    @keyframes test-anim {
+        /* 0%-50 100 % ნიშნვსრომ გასავლელი გზა გაიყო 3 ამ სამი ნაბიჯი წინ
+        3 ნაბიჯი უკან უფროლამაზია  , ქრება ჩნდება რო არ გავკეთო to- from 
+        to-from შეიძლება ჩანცვლდეს % ისადგილები  თუმცა 2 ადგილი დაგვჭირდება მესამე მე შევქმნი*/
+           0% {
+              /*yღერძსეცშემიძიავამოძრაოზემოდანქვემოთ*/transform: translateX(-240px);
+              border-radius:50% ;
+              -webkit-border-radius:50% ;
+              -moz-border-radius:50% ;
+              -ms-border-radius:50% ;
+              -o-border-radius:50% ;}
+
+       
+           
+           30%  {
+               transform: translateX(30px);
+               -webkit-transform: translateX(30px);
+               -moz-transform: translateX(30px);
+               -ms-transform: translateX(30px);
+               -o-transform: translateX(30px);
+               /*გზაში,გალურჯდება,ამ,ეტაპზე,რომივა,ციცინათელა.,გამoვა*/background-color: blue;
+               /*გზაში,წრედ,გადაიქევა,და,მერე,ისე,ვკვადრატად*/border-radius:50% ;
+}
+           
+       
+           100%  {
+               transform: translateX(-240px);
+               -webkit-transform: translateX(-240px);
+               -moz-transform: translateX(-240px);
+               -ms-transform: translateX(-240px);
+               -o-transform: translateX(-240px);
+               border-radius:50% ;
+               -webkit-border-radius:50% ;
+               -moz-border-radius:50% ;
+               -ms-border-radius:50% ;
+               -o-border-radius:50% ;
+            }
+
+        }
+
+
+
+.pizzaicon1{
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        /*ანიმცისსახელიშევმქნირომელიცმივაბიქვემოთკოდს*/animation-name: test-anim1;
+        /*გადაადგილებისსიჩქარე*/animation-duration: 6s;
+        /*infinitiციკლილუპა,სულმოძრაბსგაუჩერებლად*/animation-iteration-count: infinite;
+        font-style: italic;
+        display: flex;
+        
+        justify-content: center;
+       
+       border: 3px;
+       ;
+       text-align: center;}
+
+    @keyframes test-anim1 {
+        /* 0%-50 100 % ნიშნვსრომ გასავლელი გზა გაიყო 3 ამ სამი ნაბიჯი წინ
+        3 ნაბიჯი უკან უფროლამაზია  , ქრება ჩნდება რო არ გავკეთო to- from 
+        to-from შეიძლება ჩანცვლდეს % ისადგილები  თუმცა 2 ადგილი დაგვჭირდება მესამე მე შევქმნი*/
+           0% {
+              /*yღერძსეცშემიძიავამოძრაოზემოდანქვემოთ*/transform: translateX(950px);
+              border-radius:50% ;
+              -webkit-border-radius:50% ;
+              -moz-border-radius:50% ;
+              -ms-border-radius:50% ;
+              -o-border-radius:50% ;}
+
+       
+           
+           50%  {
+               transform: translateX(770px);
+               -webkit-transform: translateX(770px);
+               -moz-transform: translateX(770px);
+               -ms-transform: translateX(770px);
+               -o-transform: translateX(770px);
+               /*გზაში,გალურჯდება,ამ,ეტაპზე,რომივა,ციცინათელა.,გამoვა*/background-color: blue;
+               /*გზაში,წრედ,გადაიქევა,და,მერე,ისე,ვკვადრატად*/border-radius:50% ;
+}
+           
+       
+           100%  {
+               transform: translateX(950px);
+               -webkit-transform: translateX(950px);
+               -moz-transform: translateX(950px);
+               -ms-transform: translateX(950px);
+               -o-transform: translateX(950px);
+               border-radius:50% ;
+               -webkit-border-radius:50% ;
+               -moz-border-radius:50% ;
+               -ms-border-radius:50% ;
+               -o-border-radius:50% ;
+}
+
+        }
+
+
+
+.boloxazi {
+    width: 100%;
+    height: 10px;
+    background-color: rgb(46, 154, 255);
+    border: 2px;
+
+    }
+
+
+.simboloebi{
+    height: 20px;
+    width: 30px;
+    font-size: 30px;
+}
+
+
+   
+.click{
+        width: 50px;
+        height: 50px;
+        background-color: rgb(8, 71, 189);
+        color: rgb(8, 223, 90);
+        font-size: 20px;
+    
+    }

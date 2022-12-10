@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+   padding: 0;}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.logo{
+    margin-right: 200px;
+    border: none;
+    background-color: black;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.mzadaa{
+    font-size: 30px;
+    color: white;
+    transform: translateX(-180px);
+    -webkit-transform: translateX(-180px);
+    -moz-transform: translateX(-180px);
+    -ms-transform: translateX(-180px);
+    -o-transform: translateX(-180px);
+    list-style: none;
+}
+.mzadaa:hover
+{
+    background-color: rgb(230, 39, 14);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+
+ul li{
+    list-style: none;
+   
+}
+
+ul{
+    /* მაუსი აღიქვამს მიტანისას*/
+    cursor: pointer;
+    display: flex;
+    margin-right: 190px;
+}
+/*ტეხსტის ზომები ფერები დასორება "მარჯინ"*/
+li {
+    color: white;
+
+    font-family:  sans-serif;
+    font-size: 20px;
+    
+    margin-right: 60px;
+}
+.navferebi li a{
+    color: white;
+    text-decoration: none;
+   
+}
+
+/*მაუსის მიტანისას ფერს იცვლის*/
+
+.navferebi li a:hover{
+    color: rgb(230, 39, 14);
+
+}
+
+.facebok{
+    width: 30px;
+    color:  white;
+   
+    display: flex;
+    margin-right: 60px;
+
+    
+}
+#fb {
+    font-size: 30px;
+    color: aliceblue;
+    background-color: blue;
+    border-radius:3px ;
+    -webkit-border-radius:50px ;
+    margin: 8px;
+    
+}
+#mes{
+    font-size: 30px;
+    color: aliceblue;
+    background-color: blue;
+    border-radius:50px ;
+    -webkit-border-radius:50px ;
+    -moz-border-radius:50px ;
+    -ms-border-radius:50px ;
+    -o-border-radius:50px ;
+    margin: 8px;
+}
+.bgfoto1{
+    width: 100%;
+    height: 600px;
+    filter: brightness(70%);
+    background-image: url("foto/backgrnd.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-filter: brightness(70%);
+}
+
+
+.bgfotosbloki {
+    width: 600px;
+    height: 500px;
+    
+    
+    align-items: center;
+    transform: translateY(-550px);
+    -webkit-transform: translateY(-550px);
+    -moz-transform: translateY(-550px);
+    -ms-transform: translateY(-550px);
+    -o-transform: translateY(-550px);
+}
+.bgfotosteqsti{
+    color: white;
+    font-size: 50px;
+}
+.meniusgilaki{
+    width: 100px;
+    height: 60px;
+    background-color:  #ff9900;
+    transform: translateY(50px);
+    -webkit-transform: translateY(50px);
+    -moz-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    -o-transform: translateY(50px);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.meniusgilaki:hover{
+    background-color: rgba(15, 13, 13, 0.829);
+}
+.meniusgilaki a{
+    color: white;
+}
+
+
+
+
+
+.body1{
+    background-color: rgb(240, 229, 217);
+    width: 100%;
+    height: 2000px;
+    margin-top: -600px;
+}
+
+.ebautme{
+    width: 900px;
+    height: 500px;
+    transform: translateY(120px);
+    -webkit-transform: translateY(120px);
+    -moz-transform: translateY(120px);
+    -ms-transform: translateY(120px);
+    -o-transform: translateY(120px);
+}
+
+
+.conteineri1{
+    width: 800px;
+    height: 390px;
+    border: 3px solid black;
+    display: flex;
+    border: none;
+    margin-top: -1700px;
+    background-color: white;
+    
+}
+
+.conteinerisfoto1 img{
+    width: 390px;
+    height: 390px;
+   
+    background-color: white;
+}
+
+#konttexst{
+   
+    
+    transform: translateX(90px);
+    
+    -webkit-transform: translateX(90px);
+    -moz-transform: translateX(90px);
+    -ms-transform: translateX(90px);
+    -o-transform: translateX(90px);
+    padding-top: 20px;
+}
+.meniusgilaki2{
+    width: 90px;
+    height: 40px;
+    background-color:  #ff9900;
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    color: white;
+    border: none;
+    list-style: none;
+
+}
+.meniusgilaki2:hover{
+    background-color: rgba(15, 13, 13, 0.829);
+}
+
+.meniusgilaki2 a{
+    color: white;}
+
+.conteineri2{
+    width: 800px;
+    height: 390px;
+    border: 3px solid black;
+    display: flex;
+    border:none ;
+    
+    background-color: white;
+}
+
+.conteinerisfoto2 img{
+    width: 410px;
+    height: 390px;
+    transform: translateX(100px);
+    -webkit-transform: translateX(100px);
+    -moz-transform: translateX(100px);
+    -ms-transform: translateX(100px);
+    -o-transform: translateX(100px);
+}
+
+
+.fbfollow{
+    width: 140px;
+    height: 40px;
+    background-color:  #ff9900;
+    border: none;
+    
+}
+.fbfollow:hover{
+    background-color: rgba(15, 13, 13, 0.829);
+}
+.fbfollow a{
+    color: white   ;
+}
+
+.conteineri3{
+    width: 800px;
+    height: 390px;
+    display: flex;
+    
+    background-color: white;
+}
+.conteinerisfoto3 img{
+    width: 390px;
+    height: 390px;
+   
+}
+.meniusgilaki3{
+    width: 90px;
+    height: 40px;
+    background-color:  #ff9900;
+    transform: translateY(10px);
+    color: white;
+    border: none;
+}
+.meniusgilaki3:hover{
+    background-color: rgba(15, 13, 13, 0.829);
+}
+.siaxleebi{
+    -webkit-filter: brightness(80%);
+    background-image: url("foto/dafa3.jpg");
+    width: 20cm;
+    height: 20cm;
+    background-repeat: no-repeat;
+    margin-left: 160px;
+    
+}
+
+.headsiaxleebi{
+    color: white;
+    margin-left: -320px;
+}
+.dafistex{
+    color: white;
+    margin-left: -460px;
+
+}
+
+
+    
+.navbolos{
+    width: 100%;
+    height: 190px;
+    background-color: rgb(0, 0, 0);
+}
