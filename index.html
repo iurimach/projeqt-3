@@ -9,21 +9,32 @@
     <script src="https://kit.fontawesome.com/1d053174e8.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
-        <div >  <a href="index.html"><img src="foto/logo.jpg"  width="50px" ; height=" 50px"; class="logo"  > </a> </div>
+    <nav id="nav">
+        <div  id="nav-1el">  <a href="index.html"><img src="foto/logo.jpg"  width="50px" ; height=" 50px"; class="logo"  > </a>
+         </div>
         <div class="mzadaa"><i> მზადაა </i></div>
 
 
         <ul class="navferebi">
             <li ><a href="index.html"> მთავარი  </a> </li>
-            <li> <a href="2 გვერდი.html"> ჩვენს შესახებ </a></li>
+            
             <li> <a href="3 გვ მენიუ.html"> მენიუ </a> </li>
             <li> <a href="4გვ კონტაქტი.html"> კონტაქტი </a> </li>
         </ul>
-        <div class="facebok"> <a href="https://facebook.com"> <i class="fa-brands fa-facebook" id="fb"></i></a> <br>
-            <a href="https://messenger.com"> <i class="fa-brands fa-facebook-messenger" id="mes"></i> </a>  </div>
-
+        <!-- togle nav -->
+        <div class="div-right" id="rightdivhamburger">
+            <ul  id="navopeburger" >
+                <li ><a href="index.html"> მთავარი  </a> </li>
+                
+                <li> <a href="3 გვ მენიუ.html"> მენიუ </a> </li>
+                <li> <a href="4გვ კონტაქტი.html"> კონტაქტი </a> </li>
+            </ul>
+        </div>
+        <button id="hamburger" class="hamburgerovich"> <img src="foto/hamburger.png" alt="err" class="hamburgicon" > </button>
     </nav>
+
+
+
 
     <div  class="bgfoto1"></div> 
         <center><div class="bgfotosbloki">
@@ -103,15 +114,18 @@
 </div><br><br> <br><br>
 
 <center>
+    <div style="width: auto; height: 500px;">
     <div class="siaxleebi"><Br>
 
-    <h1 class="headsiaxleebi"> სიახლეები :</h1>
+    <h1 class="headsiaxleebi">News :</h1>
     <h3 class=" dafistex">  ყავა 50 % ფასდაკლებით </h3>
     <h3 class=" dafistex">   ჩაი 50 % ფასდაკლებით </h3>
     <h3 class=" dafistex">  ლუდი მხოლოდ 3 ლარად </h3>
     
 
-</div></center>
+</div>
+</div>
+</center>
 
     
 <nav class="navbolos">
@@ -120,7 +134,7 @@
 
     <ul class="navferebi">
         <li ><a href="index.html"> მთავარი  </a> </li>
-        <li> <a href="2 გვერდი.html"> ჩვენს შესახებ </a></li>
+        
         <li> <a href="3 გვ მენიუ.html"> მენიუ </a> </li>
         <li> <a href="4გვ კონტაქტი.html"> კონტაქტი </a> </li>
     </ul>
@@ -128,7 +142,7 @@
         <a href="https://messenger.com"> <i class="fa-brands fa-facebook-messenger" id="mes"></i> </a>  </div><br>
             
 </nav>
-    
+    <script src="app.js"></script>
   </body>
   
 
